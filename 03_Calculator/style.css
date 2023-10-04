@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lora', serif;
+  background: #333; /* Dark gray background */
+}
+
+.calculator {
+  border: 2px solid #333; /* Dark gray border */
+  padding: 2px;
+  border-radius: 16px;
+  background-color: #222; /* Dark background color */
+}
+
+input {
+  width: 320px;
+  border: none;
+  padding: 24px;
+  margin: 10px;
+  background: transparent;
+  box-shadow: 0px 3px 15px #333; /* Dark gray shadow */
+  font-size: 40px;
+  text-align: right;
+  color: #fff; /* White text color */
+}
+
+input::placeholder {
+  color: #fff; /* White placeholder text color */
+}
+
+.btn {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border: solid 2px #1d1716;
+  cursor: pointer;
+  background-color: #ffbf00; /* Yellow button color */
+  color: black;
+  font-size: 20px;
+}
+
+.eqbtn {
+  background-color: #ffcc66; /* Lighter yellow for the equal button */
+}
+
+.optr {
+  color: white;
+}
